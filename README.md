@@ -1,16 +1,23 @@
-# auralysis
+Auralysis is a Flutter-based mobile application that allows users to upload medical images (MRI/X-ray) and receive AI-powered diagnosis results, detailed medical reports, and doctor-style voice explanations.
 
-A new Flutter project.
+This app acts as the client interface for the Auralysis backend pipeline.
 
-## Getting Started
+What This App Does
 
-This project is a starting point for a Flutter application.
+The Auralysis mobile app enables users to:
 
-A few resources to get you started if this is your first Flutter project:
+Upload an MRI or X-ray image
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Send the image to the backend AI pipeline
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Receive:
+
+Predicted disease
+
+Confidence score
+
+Detailed medical report
+
+Doctor-style voice explanation (audio)
+
+All processing happens in the backend; the app focuses on user interaction and result presentation.
