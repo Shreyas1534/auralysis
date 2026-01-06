@@ -4,20 +4,20 @@ This app acts as the client interface for the Auralysis backend pipeline.
 
 What This App Does
 
-The Auralysis mobile app enables users to:
+---The Auralysis mobile app enables users to:
 
-Upload an MRI or X-ray image
+---Upload an MRI or X-ray image
 
-Send the image to the backend AI pipeline
+---Send the image to the backend AI pipeline
 
 Receive:
 
-Predicted disease
+---Predicted disease
 
-Confidence score
+--Confidence score
 
-Detailed medical report
+---Detailed medical report
 
-Doctor-style voice explanation (audio)
+---Doctor-style voice explanation (audio)
 
 All processing happens in the backend; the app focuses on user interaction and result presentation.
